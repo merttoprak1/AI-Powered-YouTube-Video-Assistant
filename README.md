@@ -181,28 +181,30 @@ If you encounter a **"Too Many Requests"** error:
 * Ensure the video is public and not age-restricted
 * Check that the URL is correct and the video hasn't been deleted
 
-## 📸 Demo
+## 📸 Screenshots
 
-### Main Interface
-The app features a clean, modern UI with:
-- 🎥 Embedded video player
-- 📝 AI-generated summary
-- 💬 Interactive chat interface
-- 📊 Session statistics
+### Welcome Screen
+![Welcome Screen](screenshots/welcome-screen.png)
+*Clean, modern interface with feature highlights*
 
-### Example Usage
+### Video Summary
+![Video with AI Summary](screenshots/video-summary.png)
+*Instant AI-generated summary of video content*
 
-```
-1. Paste URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-2. Click "Process Video"
-3. Read the AI summary
-4. Ask questions like:
-   - "What are the main points discussed?"
-   - "What tools were mentioned?"
-   - "Summarize the conclusion"
-```
+### Interactive Chat
+![Chat Interface](screenshots/chat-interaction.png)
+*Ask questions and get intelligent answers based on video content*
 
-### Sample Questions to Try
+---
+
+### ✨ Key Features in Action
+
+- 🎥 **Embedded video player** - Watch while you chat
+- 📝 **AI-generated summary** - Get the gist instantly  
+- 💬 **Interactive Q&A** - Extract specific insights
+- 📊 **Session statistics** - Track your usage
+
+### 💬 Sample Questions to Try
 
 - 🎯 "What is the main argument of this video?"
 - 📊 "List the key statistics mentioned"

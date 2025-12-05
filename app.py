@@ -63,13 +63,13 @@ st.markdown("""
     
     /* Summary box - clean professional design */
     .summary-box {
-        background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+        background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
         padding: 1.8rem;
         border-radius: 12px;
         border-left: 4px solid #667eea;
         margin: 1.2rem 0;
-        color: #334155;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+        color: #e2e8f0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
     }
     
     .summary-box strong {
@@ -77,6 +77,13 @@ st.markdown("""
         color: #5b21b6;
         display: block;
         margin-bottom: 0.8rem;
+    }
+    
+    /* Summary subheaders - dark purple for readability */
+    .summary-box h1, .summary-box h2, .summary-box h3, 
+    .summary-box h4, .summary-box h5, .summary-box h6 {
+        color: #5b21b6 !important;
+        font-weight: 600;
     }
     
     /* Chat messages styling */

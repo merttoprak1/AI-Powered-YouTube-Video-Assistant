@@ -10,10 +10,6 @@
 
 ---
 
-## 🎬 Demo Video
-
-> *Coming soon! Check back for a quick demo of TubeMind in action.*
-
 ## 📖 Overview
 
 **TubeMind** is an intelligent AI application that solves the problem of information overload from YouTube videos. Instead of watching hour-long videos to find specific information, TubeMind allows you to:
@@ -306,43 +302,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
-## ☁️ Deployment
-
-### Deploy to Streamlit Cloud (Free)
-
-1. Push your code to GitHub
-2. Visit [Streamlit Cloud](https://streamlit.io/cloud)
-3. Connect your GitHub repository
-4. Add your `GOOGLE_API_KEY` in the Secrets section:
-   ```toml
-   GOOGLE_API_KEY = "your_api_key_here"
-   ```
-5. Deploy! 🚀
-
-### Local Network Access
-
-To access from other devices on your network:
-
-```bash
-streamlit run app.py --server.address 0.0.0.0
-```
-
-### Docker Deployment (Optional)
-
-```dockerfile
-FROM python:3.10-slim
-
-WORKDIR /app
-
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
-
-EXPOSE 8501
-
-CMD ["streamlit", "run", "app.py", "--server.address", "0.0.0.0"]
 ```
 
 ## 🙏 Acknowledgments
@@ -352,52 +311,17 @@ CMD ["streamlit", "run", "app.py", "--server.address", "0.0.0.0"]
 * [YouTube Transcript API](https://github.com/jdepoix/youtube-transcript-api) for easy transcript access
 * [yt-dlp](https://github.com/yt-dlp/yt-dlp) for reliable video processing
 
-## 🚀 Roadmap
-
-### Planned Features
-
-- [ ] 🌍 **Multi-language Support** - Process videos in different languages
-- [ ] 📄 **Export Functionality** - Export summaries and chat history (PDF, Markdown)
-- [ ] ⏰ **Timestamp Integration** - Reference specific video moments in answers
-- [ ] 📚 **Playlist Support** - Analyze entire YouTube playlists
-- [ ] 🎤 **Voice Input** - Ask questions using voice commands
-- [ ] 🔗 **Share Conversations** - Generate shareable links for chat sessions
-- [ ] 📊 **Analytics Dashboard** - Track your learning progress
-- [ ] 🎨 **Custom Themes** - Personalize the UI appearance
-- [ ] 💾 **Database Integration** - Persistent storage for transcripts and chats
-- [ ] 🔐 **User Authentication** - Personal accounts and saved sessions
-
-### Recent Updates
-
-- ✅ **v1.0.0** (Dec 2025)
-  - Initial release with core functionality
-  - Multi-method transcript fetching
-  - AI-powered summaries and chat
-  - Modern responsive UI
-  - Session caching
-
 ## 📧 Contact & Support
 
 **Mert Toprak**
+- 💼 LinkedIn: [Mert Toprak](https://www.linkedin.com/in/merttoprak/)
 
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- 🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
-
-### Get Help
-
-- 💬 [Open an Issue](https://github.com/yourusername/tubemind/issues) - Report bugs or request features
-- 📖 [Wiki](https://github.com/yourusername/tubemind/wiki) - Detailed documentation
-- ⭐ Star this repo if you find it useful!
-
----
 
 <div align="center">
 
 **⭐ Star this repository if you find it helpful!**
 
-*Developed with ❤️ by [Mert Toprak](https://github.com/yourusername)*
+*Developed with ❤️ by [Mert Toprak](https://github.com/merttoprak1)*
 
 *A portfolio project demonstrating practical applications of LLMs and AI in solving real-world problems*
 

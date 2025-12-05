@@ -302,7 +302,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-```
+
 
 ## 🙏 Acknowledgments
 
@@ -316,17 +316,25 @@ SOFTWARE.
 **Mert Toprak**
 - 💼 LinkedIn: [Mert Toprak](https://www.linkedin.com/in/merttoprak/)
 
-
+<br>
 <div align="center">
-
-**⭐ Star this repository if you find it helpful!**
-
-*Developed with ❤️ by [Mert Toprak](https://github.com/merttoprak1)*
-
-*A portfolio project demonstrating practical applications of LLMs and AI in solving real-world problems*
-
-[![Made with Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Powered by Gemini](https://img.shields.io/badge/Powered%20by-Google%20Gemini-4285F4)](https://ai.google.dev/)
-[![Built with Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B)](https://streamlit.io/)
-
+<h3>⭐ Star this repository if you find it helpful!</h3>
+<p>
+<i>Developed with ❤️ by <a href="https://github.com/merttoprak1">Mert Toprak</a></i>
+<br>
+<i>A portfolio project demonstrating practical applications of LLMs and AI in solving real-world problems</i>
+</p>
+<p>
+<a href="https://www.python.org/">
+<img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg" alt="Made with Python">
+</a>
+<a href="https://ai.google.dev/">
+<img src="https://img.shields.io/badge/Powered%20by-Google%20Gemini-4285F4" alt="Powered by Gemini">
+</a>
+<a href="https://streamlit.io/">
+<img src="https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B" alt="Built with Streamlit">
+</a>
+</p>
+</div>
+  </p>
 </div>
